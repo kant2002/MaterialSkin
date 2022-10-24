@@ -8,5 +8,8 @@
     <Assembly Name="System.Drawing">
       <Type Name="System.Drawing.Bitmap" Dynamic="Required All" />
     </Assembly>
+    <Assembly Name="MaterialSkin">
+      <Type Name="MaterialSkin.Controls.MaterialListView+LogFont" MarshalStructure="Required All" />
+    </Assembly>
   </Application>
 </Directives>
